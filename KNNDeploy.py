@@ -14,7 +14,7 @@ CORS(app)
 @app.route('/input/task', methods=['POST'])
 def predict():
     """
-    Ini Adalah Endpoint Untuk Mengevaluasi Jenis Kalimat
+    Ini Adalah Endpoint Untuk Mengalasisa Sentiment dari kalimat tweet yang dimasukan
     ---
     tags:
         - Rest Controller
